@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027CD4BE25DFA56700701463 /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD4BC25DFA56700701463 /* SimpleTableViewCell.swift */; };
+		027CD4BF25DFA56700701463 /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027CD4BD25DFA56700701463 /* SimpleTableViewCell.xib */; };
+		027CD4C425DFA5F800701463 /* TableViewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD4C325DFA5F800701463 /* TableViewListViewController.swift */; };
+		027CD4CA25DFAA8E00701463 /* CellWithSubTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD4C825DFAA8E00701463 /* CellWithSubTitleTableViewCell.swift */; };
+		027CD4CB25DFAA8E00701463 /* CellWithSubTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027CD4C925DFAA8E00701463 /* CellWithSubTitleTableViewCell.xib */; };
 		02DA120A25DE7696001F5B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA120925DE7696001F5B26 /* AppDelegate.swift */; };
 		02DA120C25DE7696001F5B26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA120B25DE7696001F5B26 /* SceneDelegate.swift */; };
 		02DA120E25DE7696001F5B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA120D25DE7696001F5B26 /* ViewController.swift */; };
@@ -16,6 +21,9 @@
 		02DA121925DE7698001F5B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02DA121725DE7698001F5B26 /* LaunchScreen.storyboard */; };
 		02DA122425DE7699001F5B26 /* UIKitFrameworkExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA122325DE7699001F5B26 /* UIKitFrameworkExamplesTests.swift */; };
 		02DA122F25DE7699001F5B26 /* UIKitFrameworkExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA122E25DE7699001F5B26 /* UIKitFrameworkExamplesUITests.swift */; };
+		02DA124B25DE7A90001F5B26 /* FrameworkListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA124925DE7A90001F5B26 /* FrameworkListTableViewCell.swift */; };
+		02DA124C25DE7A90001F5B26 /* FrameworkListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02DA124A25DE7A90001F5B26 /* FrameworkListTableViewCell.xib */; };
+		02E1D9BC25DF8D0900C16CA1 /* SecondaryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1D9BB25DF8D0900C16CA1 /* SecondaryListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		027CD4BC25DFA56700701463 /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		027CD4BD25DFA56700701463 /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
+		027CD4C325DFA5F800701463 /* TableViewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewListViewController.swift; sourceTree = "<group>"; };
+		027CD4C825DFAA8E00701463 /* CellWithSubTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWithSubTitleTableViewCell.swift; sourceTree = "<group>"; };
+		027CD4C925DFAA8E00701463 /* CellWithSubTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellWithSubTitleTableViewCell.xib; sourceTree = "<group>"; };
 		02DA120625DE7696001F5B26 /* UIKitFrameworkExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitFrameworkExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DA120925DE7696001F5B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02DA120B25DE7696001F5B26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +64,9 @@
 		02DA122A25DE7699001F5B26 /* UIKitFrameworkExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitFrameworkExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DA122E25DE7699001F5B26 /* UIKitFrameworkExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitFrameworkExamplesUITests.swift; sourceTree = "<group>"; };
 		02DA123025DE7699001F5B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DA124925DE7A90001F5B26 /* FrameworkListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListTableViewCell.swift; sourceTree = "<group>"; };
+		02DA124A25DE7A90001F5B26 /* FrameworkListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FrameworkListTableViewCell.xib; sourceTree = "<group>"; };
+		02E1D9BB25DF8D0900C16CA1 /* SecondaryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +117,10 @@
 		02DA120825DE7696001F5B26 /* UIKitFrameworkExamples */ = {
 			isa = PBXGroup;
 			children = (
+				02E1D9C025DF8D1100C16CA1 /* ViewControllers */,
+				02DA124825DE7A79001F5B26 /* TableViewCells */,
 				02DA120925DE7696001F5B26 /* AppDelegate.swift */,
 				02DA120B25DE7696001F5B26 /* SceneDelegate.swift */,
-				02DA120D25DE7696001F5B26 /* ViewController.swift */,
 				02DA120F25DE7696001F5B26 /* Main.storyboard */,
 				02DA121525DE7698001F5B26 /* Assets.xcassets */,
 				02DA121725DE7698001F5B26 /* LaunchScreen.storyboard */,
@@ -129,6 +146,29 @@
 				02DA123025DE7699001F5B26 /* Info.plist */,
 			);
 			path = UIKitFrameworkExamplesUITests;
+			sourceTree = "<group>";
+		};
+		02DA124825DE7A79001F5B26 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				02DA124925DE7A90001F5B26 /* FrameworkListTableViewCell.swift */,
+				02DA124A25DE7A90001F5B26 /* FrameworkListTableViewCell.xib */,
+				027CD4BC25DFA56700701463 /* SimpleTableViewCell.swift */,
+				027CD4BD25DFA56700701463 /* SimpleTableViewCell.xib */,
+				027CD4C825DFAA8E00701463 /* CellWithSubTitleTableViewCell.swift */,
+				027CD4C925DFAA8E00701463 /* CellWithSubTitleTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		02E1D9C025DF8D1100C16CA1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				02DA120D25DE7696001F5B26 /* ViewController.swift */,
+				02E1D9BB25DF8D0900C16CA1 /* SecondaryListViewController.swift */,
+				027CD4C325DFA5F800701463 /* TableViewListViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DA124C25DE7A90001F5B26 /* FrameworkListTableViewCell.xib in Resources */,
+				027CD4BF25DFA56700701463 /* SimpleTableViewCell.xib in Resources */,
 				02DA121925DE7698001F5B26 /* LaunchScreen.storyboard in Resources */,
+				027CD4CB25DFAA8E00701463 /* CellWithSubTitleTableViewCell.xib in Resources */,
 				02DA121625DE7698001F5B26 /* Assets.xcassets in Resources */,
 				02DA121125DE7696001F5B26 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +305,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DA120E25DE7696001F5B26 /* ViewController.swift in Sources */,
+				02E1D9BC25DF8D0900C16CA1 /* SecondaryListViewController.swift in Sources */,
 				02DA120A25DE7696001F5B26 /* AppDelegate.swift in Sources */,
+				02DA124B25DE7A90001F5B26 /* FrameworkListTableViewCell.swift in Sources */,
+				027CD4BE25DFA56700701463 /* SimpleTableViewCell.swift in Sources */,
 				02DA121425DE7696001F5B26 /* UIKitFrameworkExamples.xcdatamodeld in Sources */,
+				027CD4C425DFA5F800701463 /* TableViewListViewController.swift in Sources */,
+				027CD4CA25DFAA8E00701463 /* CellWithSubTitleTableViewCell.swift in Sources */,
 				02DA120C25DE7696001F5B26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
